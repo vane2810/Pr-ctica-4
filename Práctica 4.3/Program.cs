@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Práctica_4._3
 {
@@ -7,7 +8,7 @@ namespace Práctica_4._3
     {
         static void Main(string[] args)
         {
-            ArrayList lista = new ArrayList();
+            List<string> lista = new List<string>;
             Console.WriteLine("Cantidad: {0}", lista.Count);
             Console.WriteLine("Capacidad: {0}", lista.Capacity);
             Console.WriteLine();
@@ -36,7 +37,6 @@ namespace Práctica_4._3
 
             Console.WriteLine("=========== Eliminar rango ==========");
             lista.RemoveRange(5, 4);
-            lista.Remove(15);
 
 
             foreach (string row in lista)
