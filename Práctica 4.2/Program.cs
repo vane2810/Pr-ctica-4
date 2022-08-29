@@ -22,7 +22,7 @@ namespace Práctica_4._2
                 Console.WriteLine();
             }
 
-            string[,] paises = { { "El Salvador" }, { "Guatemala" }, { " " } };
+            string[,] paises = { { "El Salvador" , "Guatemala" , " "}, { " " , " " ," "} , {" ", " ", " "  } };
              
         }
     }
