@@ -8,7 +8,7 @@ namespace Práctica_4._3
     {
         static void Main(string[] args)
         {
-            List<string> lista = new List<string>;
+            List<string> lista = new List<string>();
             Console.WriteLine("Cantidad: {0}", lista.Count);
             Console.WriteLine("Capacidad: {0}", lista.Capacity);
             Console.WriteLine();
